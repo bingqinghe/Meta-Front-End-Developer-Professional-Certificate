@@ -1,0 +1,23 @@
+Knowledge Check - Core Internet Technologies
+
+1. Which of the following is possible to do using the developer tools in your browser?
+* Inspect the HTML elements of a web page
+* Check JavaScript error logs
+* Inspect a timeline of HTTP requests and responses
+  Upload images to the web server
+* Inspect the performance and memory usage of a webpage
+
+2. In software development, a library provides _________________________.
+* re-usable pieces of code that can be used by your application.
+  a structure for developers to build an application with.
+
+3. In software development, an API is _________________________.
+* a set of functions that an application component or service can provide.
+  a text editor to write code with.
+
+4. What of the following are benefits of using an Integrated Development Environment (IDE)?
+* Syntax Highlighting
+* Error Highlighting
+* Autocomplete
+  Autodelete
+* IntelliSense

@@ -1,0 +1,43 @@
+Knowledge Check - How the web works
+
+1. In the client/server model, the accessing device is a ____________________.
+* Client
+  Server
+
+2. The part of the website address that you type in your web browser to navigate to a website, which uniquely identifies the site and often includes extensions like .com or .org, is called a ______
+  HTTP
+  Client name
+* Domain name
+
+3. Servers are typically stored in a building called a ____________________.
+  DNS Server
+* Data Center
+  DHCP Center
+
+4. The physical components of a server are called the ____________________.
+* Hardware
+  Software
+
+5. The purpose of a web server is to ____________________.
+  Request content from a web browser and receive the response.
+* Receive requests from a web browser and to respond with the correct content for that request.
+  Receive web pages and display them in the web browser.
+
+6. True or False. A website can consist of multiple web pages linked together.
+* True
+  False
+
+7. The links you click on in your web browser are known as ____________________.
+* Hyperlinks
+  Data links
+  Server links
+
+8. Which of these are the 3 main technologies of the web browser? Select all that apply.
+* HTML
+  C#
+* JavaScript
+* CSS
+
+9. When you run a website on the cloud, the website is restricted to one physical server.
+  True
+* False

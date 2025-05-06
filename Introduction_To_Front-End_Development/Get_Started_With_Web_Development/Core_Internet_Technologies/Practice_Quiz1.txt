@@ -1,0 +1,34 @@
+Knowledge Check - The Web and the Internet
+
+1. When sending a message to another computer, the source and destination are specified using  ________________.  
+  a Domain Name
+  a Web Server
+* an IP Address
+
+2. Which of the following are valid IP addresses? Select all that apply.
+* 192.0.2.235
+  example.com
+* 4527:0db8:0a00:1567:0200:ff00:0042:8329
+
+3. When using TCP, data can arrive out of order.
+  True
+* False
+
+4. Which of the following are valid HTTP methods? Select all that apply.
+* GET
+* POST
+  SEND
+* DELETE
+
+5. HTML describes the structure and content of a web page.
+* True
+  False
+
+6. When you type a website address (for example, coursera.org) in your web browser, which protocol is used to find the IP address of the website?
+  Internet Message Access Protocol (IMAP)
+  File Transfer Protocol (FTP)
+* Domain Name System Protocol (DNS)
+
+7. A web application is more ________________ compared to a website.
+  Informative
+* Interactive
