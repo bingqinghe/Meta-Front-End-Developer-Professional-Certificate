@@ -1,0 +1,28 @@
+Knowledge Check - Getting started with HTML
+
+1. What is the first element in an HTML document?
+  The <html> tag
+* The DOCTYPE declaration
+  The <head> tag
+  The <body>  tag  
+
+2. Which tag is used to create a hyperlink to another webpage?  
+  <link>  
+  <html>  
+* <a>  
+  <img>  
+
+3. Which tag is used to embed an image in an HTML document?
+* <img>  
+  <image>  
+  <a>
+  <link>  
+
+4. The <strong> and <b> tags provide semantic meaning to the text they enclose. State TRUE or FALSE
+* True
+  False 
+
+5. The following answer choices improve web accessibility for people with disabilities. Select all that apply.  
+* Correct HTML structure
+* Accessible Rich Internet Application (ARIA) techniques  
+* Appropriate use of HTML elements

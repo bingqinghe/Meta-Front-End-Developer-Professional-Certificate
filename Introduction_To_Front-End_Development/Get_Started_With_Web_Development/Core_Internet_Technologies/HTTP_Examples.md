@@ -1,4 +1,5 @@
 # HTTP examples
+
 This reading explores the contents of HTTP requests and responses in more depth.
 
 ### Request Line
@@ -25,7 +26,6 @@ Common HTTP methods are:
 |DELETE|The client deletes a resource on the web server.|
 |PATCH | The client partially updates a resource on the web server.|
 
-
 ### HTTP Request Headers
 
 After the request line, the HTTP headers are followed by a line break.
@@ -33,6 +33,7 @@ After the request line, the HTTP headers are followed by a line break.
 There are various possibilities when including an HTTP header in the HTTP request. A header is a case-insensitive name followed by a: and then followed by a value.
 
 Common headers are:
+
 ```JSON
 Host: example.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
@@ -50,6 +51,7 @@ Content-type: text/json
 ### HTTP Request Body
 
 HTTP requests can optionally include a request body. A request body is often included when using the HTTP POST and PUT methods to transmit data.
+
 ```JSON
 POST /users HTTP/1.1
 Host: example.com
@@ -60,6 +62,7 @@ Host: example.com
     "array1":["value3","value4"]
 }
 ```
+
 ```JSON
 PUT /users/1 HTTP/1.1
 Host: example.com
@@ -94,6 +97,7 @@ The common status codes you'll encounter for each category are:
 |101|Switching Protocols|The client has requested the server to switch protocols and the server has agreed to do so.|
 
 #### *2XX Successful*
+
 | **Status Code** | **Reason Phrase** | **Description**|
 |:-----------------|:-----------------|:-----------------|
 |200|OK|Standard response returned by the server to indicate it successfully processed the request.|
@@ -102,12 +106,14 @@ The common status codes you'll encounter for each category are:
 |204|No Content|The server successfully processed the request but is not returning any content.|
 
 #### *3XX Redirection*
+
 | **Status Code** | **Reason Phrase** | **Description**|
 |:-----------------|:-----------------|:-----------------|
 |301|Moved Permanently|This request and all future requests should be sent to the returned location.|
 |302|Found|This request should be sent to the returned location.|
 
 #### *4XX Client Error*
+
 | **Status Code** | **Reason Phrase** | **Description**|
 |:-----------------|:-----------------|:-----------------|
 |400|Bad Request|The server cannot process the request due to a client error, e.g., invalid request or transmitted data is too large.|
@@ -117,6 +123,7 @@ The common status codes you'll encounter for each category are:
 |405|Method Not Allowed|The web server does not support the HTTP method used.|
 
 #### *5XX Server Error*
+
 | **Status Code** | **Reason Phrase** | **Description**|
 |:-----------------|:-----------------|:-----------------|
 |500|Internal Server Error|A generic error status code given when an unexpected error or condition occurred while processing the request.|
@@ -130,6 +137,7 @@ Following the status line, there are optional HTTP response headers followed by 
 Similar to the request headers, there are many possible HTTP headers that can be included in the HTTP response.
 
 Common response headers are:
+
 ```JSON
 Date: Fri, 11 Feb 2022 15:00:00 GMT+2
 Server: Apache/2.2.14 (Linux)
@@ -147,6 +155,7 @@ Content-Type: text/html
 Following the HTTP response headers is the HTTP response body. This is the main content of the HTTP response.
 
 This can contain images, video, HTML documents and other media types.
+
 ```JSON
 HTTP/1.1 200 OKDate: Fri, 11 Feb 2022 15:00:00 GMT+2
 Server: Apache/2.2.14 (Linux)
