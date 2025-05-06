@@ -1,0 +1,41 @@
+Knowledge check: CSS basics
+
+1. What is the total horizontal margin of the following CSS rule?
+    div {    
+        width: 10px;    
+        padding: 20px;    
+        margin: 40px;
+    }
+
+  40 pixels
+  30 pixels
+* 80 pixels
+  70 pixels
+
+2. To reference a CSS file in an HTML document, you use the ______________ tag.
+  head
+  script
+  style
+* link
+
+3. In the following CSS rule, the `h1` part of the rule is called the ______________.
+    h1 {    
+        color: green;
+    }
+
+  Box Model
+* Selector
+  Inheritance
+  HTML
+
+4. Which of the CSS code will center-align text in an element?
+* text-align: center
+  align-self   
+  vertical-align   
+  align-items   
+
+5. Which CSS property and value change the HTML element to a block-level element?
+  align-content  
+  content
+  list-style
+* display: block
