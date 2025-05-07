@@ -1,0 +1,15 @@
+Self Review: Working with Bootstrap Grid
+
+1. To view the page in the web browser, the logo should be centered on the webpage?
+* Yes
+  No
+
+2. When viewing the page in the web browser on a desktop, the four menu items display in one column?
+  Yes
+* No
+
+3. Use the developer tools to preview the webpage on a mobile device. How many columns will the content display in?
+  0
+* 1
+  2
+  3

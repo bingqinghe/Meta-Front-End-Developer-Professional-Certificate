@@ -1,0 +1,27 @@
+Knowledge Check: Introduction to UI frameworks and libraries
+
+1. To reference a JavaScript script or file in an HTML document, you use the ______________ tag.
+  javascript
+  library
+* script
+  code
+
+2. If your application requires a library or framework to run, this is called a ______________.
+  child
+  parent
+* dependency
+
+3. A point at which a website's content and design will adapt in order to provide the best user experience is called a ______________.
+  Design Point
+* Breakpoint
+  Box Point
+
+4. In the Bootstrap Grid System, which element is used as the foundation to structure rows and columns?
+* Container
+  Row
+  Column
+  Component
+
+5. The responsive breakpoint for Bootstrap CSS rules is determined by the ______________?
+  Modifier
+* Infix

@@ -1,0 +1,13 @@
+Self review: Working with Bootstrap components
+
+1. Does the New badge display beside the Falafel heading in the Browser Preview?  
+* Yes
+  No
+
+2. Does the alert display below the Order Online button in the Browser Preview?
+  Yes
+* No
+
+3. Does the Order Online button display using Bootstrap’s button design in the Browser Preview?
+* Yes
+  No
