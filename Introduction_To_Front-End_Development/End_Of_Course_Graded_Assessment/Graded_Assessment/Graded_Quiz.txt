@@ -1,0 +1,74 @@
+Course 1 Assessment: Introduction to Web Development
+
+1. The code that runs on the web server is commonly known as _____________.
+  Hardware
+* Software
+
+2. In the web browser, what is the role of JavaScript?
+  To describe the content of the web page
+* To provide interactivity and data processing
+  To describe the visual look and layout
+
+3. Which protocol is used to transfer HTML documents to the web browser when browsing the World Wide Web?
+* HyperText Transfer Protocol (HTTP)
+  File Transfer Protocol (FTP)
+  Dynamic Host Configuration Protocol (DHCP)
+
+4. What will display on the web page inside the web browser for the following HTML document?
+    <!DOCTYPE html>
+    <html>
+        <head>    
+            <title>Little Lemon</title>
+        </head>
+        <body>    
+            <p>Our Menu</p>
+        </body>
+    </html> 
+
+  Little Lemon
+* Our Menu
+
+5. Which HTML tag is used to link to other HTML documents?
+  The image tag <img>
+* The anchor tag <a>
+  The link tag <link>
+
+6. What type of selector is used for the following CSS rule?
+    #header {    
+        width: 50%;
+    } 
+
+* ID selector
+  Element selector
+  Class selector
+
+7. What is the border-box width for the following CSS rule?
+    div {
+        width: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-width: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+  20 pixels
+  25 pixels
+* 30 pixels
+  50 pixels
+
+8. How many columns does Bootstrap's grid consist of?
+  8
+  10
+* 12
+
+9. True or False. The following div element will fill 6 columns of the Bootstrap grid on desktop devices.
+    <div class="col-12 col-lg-6"> </div> 
+
+* True
+  False
+
+10. React stores a representation of the browser DOM in memory. What is this representation called?
+* The Virtual DOM
+  The Memory DOM
+  The Copy DOM
