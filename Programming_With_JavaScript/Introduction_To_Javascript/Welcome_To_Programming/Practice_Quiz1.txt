@@ -1,0 +1,24 @@
+Self review: Declaring variables
+
+1. When you ran the following code, what was the output?
+    var petDog = 'Rex'; // Task 1 solution
+    console.log(petDog);
+
+* Rex
+  No output
+  petDog
+
+2. When you ran the following code, what was the output?
+    var petDog = 'Rex'; // Task 1 solution
+    console.log("My pet dog's name is: " + petDog);
+
+* My pet dog's name is: Rex
+  My pet dog's name is: petDog
+
+3. When you ran the following code, what was the output?
+    var petCat = 'Pepper'; // Task 2 solution
+    var catSound = "purr"; // Task 7 solution
+    console.log(petCat, "says", catSound);
+
+* Pepper says purr
+  purr says Pepper
