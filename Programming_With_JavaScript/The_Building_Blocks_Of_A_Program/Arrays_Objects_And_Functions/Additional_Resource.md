@@ -1,4 +1,4 @@
-# Additional resources for Conditionals and Loops
+# Additional resources
 
 ## JavaScript Functions
 
