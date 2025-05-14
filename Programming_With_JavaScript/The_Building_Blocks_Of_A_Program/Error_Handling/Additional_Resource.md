@@ -1,33 +1,17 @@
 # Additional resources
 
-## MDN functions
+## [MDN functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
 
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)
+## [MDN try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 
-## MDN try...catch
+## [Iteration protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
 
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+## [The Math object on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
-## Iteration protocols
+## [The String object on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
+## [MDN JavaScript error reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
-## The Math object on MDN
+## [The null value on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)
 
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-
-## The String object on MDN
-
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-
-## MDN JavaScript error reference
-
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
-
-## The null value on MDN
-
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)
-
-## The undefined property on MDN
-
-🔗 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+## [The undefined property on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
