@@ -1,0 +1,61 @@
+Module quiz: Testing
+
+1. What is unit testing?
+  Unit testing tests how parts of your system interact with other parts of your system.
+* Unit testing revolves around the idea of having separate, small pieces of code that are easy to test.
+  Unit testing tries to imitate how a user might interact with your app.
+  Unit testing gives you an efficiency rating for your code measured in units.
+
+2. When the following test executes, what format will the result be?
+    function subtract(a, b) { return a - b; } expect(subtract(10, 4)).toBe(6); 
+
+  String
+* Success/Fail
+  True/False
+  Function
+
+3. What is end-to-end testing (e2e)?
+  End-to-end testing is testing how parts of your system interact with other parts of your system.
+  End-to-end testing is a comprehensive test that starts at the beginning of your code and runs to the end.
+  End-to-end testing revolves around the idea of having separate, small pieces of code that are easy to test.
+* End-to-end testing tries to imitate how a user might interact with your application.
+
+4. What is Code Coverage?
+  A measure of what percentage of your code is failing tests.
+* A measure of what percentage of your code is covered by tests.
+  What percentage of your code is complete.
+  What percentage of your code is in Javascript.
+
+5. Node.js is typically used to do which of the following?
+  Run unit tests
+* Build web application backends
+  Download and manage packages
+  Estimate code coverage
+
+6. What is integration testing?
+* Integration testing tests how parts of your system interact with other parts of your system.
+  Integration testing tries to imitate how a user might interact with your application.
+  Integration testing tests how much of your code is covered by tests.
+  Integration testing revolves around the idea of having separate, small pieces of code that are easy to test.
+
+7. True or False: You can install packages from the npm repository using the node command.
+  True
+* False
+
+8. Which file lists all your application's required node packages?
+  pkg.json
+* package.json
+  npm.json
+  node.json
+
+9. Which of the following is NOT a benefit of using Test-Driven Development or TDD?
+  Minimizing regressions like accidental bugs introduced to old code.
+* You can run tests without setting them up.
+  You have proof that your new implementation is not breaking other parts of the app.
+  You can automate these tests easily and thus keep verifying again and again that the system works as expected.
+
+10. What is the recommended way to separate the code that you are testing from its related dependencies?
+* Mocking
+  End-to-end testing
+  Fakes
+  module.exports
