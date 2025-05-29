@@ -1,0 +1,115 @@
+Final graded quiz: Programming with JavaScript
+
+1. What will be the output of the following JavaScript?
+    const a = true;if(!a) {    
+        console.log("Green");
+    } else {    
+        console.log("Blue");
+    } 
+
+  Green
+* Blue
+  Nothing
+
+2. What will be the output of the following JavaScript?
+    var message = "Hello";
+    message += " World!";
+    message = "Goodbye!";
+    console.log(message); 
+
+  Hello
+  World!
+  Hello World!
+* Goodbye!
+
+3. What is the data type of the x variable in the following code?
+    var x = "Hello"; 
+
+  Number
+  BigInt
+* String
+  Boolean
+
+4. What will the following JavaScript code output?
+    var x = 10;
+    if(x > 10) {
+        console.log("Apple");
+    } else if(x > 5) {
+        console.log("Pear");
+    } else {
+        console.log("Orange");
+    }
+    
+  Apple
+* Pear
+  Orange
+
+5. What will the following JavaScript code output?
+    var result = 0; 
+    var i = 4;
+    while(i > 0) {    
+        result += 2;    
+        i--;
+    } 
+    console.log(result); 
+
+  0
+  2
+  4
+* 8
+
+6. When the following code runs, what will print out?
+    try {    
+        throw new Error();    
+        console.log('Square');
+    } catch(err) {    
+        console.log('Circle');
+    } 
+
+  Square
+* Circle
+
+7. What's missing from this JavaScript function declaration?
+    function(a,b) {
+        return a + b
+    }
+
+* The function name.
+  The assignment operator.
+  The dot notation.
+
+8. What is the output of the code below?
+    var cat = {}
+    cat.sound = "meow"
+    var catSound = "purr"
+    console.log(cat.sound)
+
+* meow
+  purr
+  {}
+  catSound
+
+9. What is the output of the code below?
+    var veggies = []
+    veggies.push('parsley')
+    veggies.push('carrot')
+    console.log(veggies[2])
+
+* undefined
+  2
+  1
+  3
+
+10. Which of the following HTML attributes is used to handle a click event?
+* onclick
+  addEventListener('click')
+  'click'
+
+11. How can you add an HTML attribute to an HTML element using JavaScript?
+* By invoking the  setAttribute  method on a given element.
+  By invoking the  getAttribute  method on a given element.
+  By invoking the  createAttribute  method on a given element.
+
+12. True or false? Using the  npm init -y  command you can initialize a new project with npm with all the prompts answered with a 'yes'.
+* true
+  false
