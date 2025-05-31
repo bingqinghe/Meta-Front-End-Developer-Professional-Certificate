@@ -1,0 +1,25 @@
+Knowledge Check: Introduction to version control
+
+1. Which of the following are the benefits of using Version Control? Select all that apply.
+* Identity
+* Revert / Rollback
+* Collaboration
+
+2. When multiple developers work on the same file, a merge conflict will never occur.
+  True
+* False
+
+3. Revision History is a record of all changes within a project. It allows you to pinpoint who made the changes, when they were made and what was changed.
+* True
+  False
+
+4. Which of the following are centralized Version Control Systems? Select all that apply.
+* Concurrent Versions System
+  Mercurial
+* Subversion
+  Git
+
+5. Which of the following complements Version Control during software development? Select all that apply.
+* Continuous Integration
+* Continuous Delivery
+* Continuous Deployment
