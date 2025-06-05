@@ -1,0 +1,39 @@
+Module Quiz: Command Line
+
+1. What command do you use to print the current working directory?
+  cd
+  cat
+* pwd
+
+2. What command do you use to search text content?
+  mkdir
+* grep
+  ls
+
+3. Which of the following are standard input/output (I/O) streams? Select all that apply.
+* stdout
+* stderr
+* stdin
+
+4. Pipes are used to pass the output of one command as input to another command.
+* True
+  False
+
+5. What command do you use to list files and directories?
+  cd
+* ls
+  mkdir
+
+6. The mv command is used to create directories.
+  True
+* False
+
+7. Flags can be used to change the behaviour of a command.
+* True
+  False
+
+8. Which of the following are benefits of using the command line? Select all that apply.
+* Interacting with cloud provider platforms in a consistent way
+  Automatically correct mistakes in commands
+* Automating tasks
+* Improved performance versus Graphical User Interface
