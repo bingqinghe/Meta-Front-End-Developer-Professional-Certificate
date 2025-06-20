@@ -1,0 +1,27 @@
+Knowledge Check: Git and GitHub
+
+1. In git, the repository on your device is known as a Remote.
+  True
+* False
+
+2. In git, what is the operation used to initially download a repository?
+  push
+* clone
+  pull
+
+3. The staged area is used to prepare all your files and changes for committing.
+* True
+  False
+
+4. Once a file is committed using the git commit operation, it is available on all remote repositories.
+  True
+* False
+
+5. Which of the following commands can be used to inspect your current changes before committing?
+  git log
+  git add
+* git diff
+
+6. True or False: You can use forking to contribute to another person's repository, or that of another organization, by creating your own copy.
+* True
+  False
