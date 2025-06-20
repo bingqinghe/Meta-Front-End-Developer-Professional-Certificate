@@ -1,0 +1,57 @@
+End-of-course graded assessment
+
+1. What is Revision History in Version Control?
+* A record of all changes in a project
+  A record of all bugs in a project
+  A record of all users in a project
+
+2. In Bash, which of the following commands will change the working directory?
+  rm
+  mkdir
+* cd
+
+3. In Bash, which of the following commands will print the current working directory?
+  touch
+* pwd
+  mv
+
+4. Which of the following can be used to find all unique text lines in a file?
+* Uniq
+  Grep
+  Pipe
+
+5. Which Git command is used to upload the latest changes to a remote repository?
+* git push
+  git pull
+  git clone
+
+6. Which Git command is used to create a commit from the changes added to your staging area?
+* git commit
+  git add
+  git restore
+
+7. True or false. When creating a new branch using the git branch command, that branch is immediately available to other developers.
+  true
+* false
+
+8. Which of the following Git commands can be used to check local changes? Select all that apply.
+* git diff
+* git status
+  git remote -v
+
+9. In the following differential output, which line was deleted?
+    @@ @@
+    Red
+    Blue
+    -Green
+    +Yellow
+
+  Red
+  Blue
+* Green
+  Yellow
+
+10. When copying a repository on Github to your own repository on Github, what is this action commonly known as?
+  Merging
+* Forking
+  Cloning
