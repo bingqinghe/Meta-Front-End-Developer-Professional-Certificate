@@ -1,0 +1,17 @@
+Self-review: Create a repository with forking
+
+1. In git, the default branch of a repo is called the ____________.
+  Super Branch
+  Secondary Branch
+  Primary Branch
+* Main Branch
+
+2. What is the request to merge forked changes called?
+  Code Request
+  Push Request
+* Pull Request
+
+3. When you clone a forked repository, what does origin refer to?
+  The original repository
+  Another developer’s repository
+* The forked repository
