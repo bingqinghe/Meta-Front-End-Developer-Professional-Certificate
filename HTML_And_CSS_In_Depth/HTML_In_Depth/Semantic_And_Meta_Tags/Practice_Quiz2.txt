@@ -1,0 +1,35 @@
+Knowledge check: Metadata
+
+1. What are some of the main characteristics of meta tags? Select all that apply.   
+* They don’t have a visual representation in your pages   
+  They are placed inside the <body> element
+* They define metadata about an HTML document, namely information about data
+* They are very important for SEO
+
+2. What are some of the most important Meta tags you should use for good SEO? Select all that apply.   
+* Description   
+* Image alt attributes   
+  Keywords   
+* Title  
+
+3. Which meta tag is used to specify the character encoding for the HTML document?  
+  lang   
+  language  
+* charset   
+  content   
+
+4. Which meta tag and properties do you need to set to make your pages responsive in desktop and mobile viewports?  
+  <meta name=”viewport” content=”width=window-width, initial-scale=1”  />
+* <meta name=”viewport” content=”width=device-width, initial-scale=1”  />
+  <meta name=”viewport” content=”height=device-height, initial-scale=1”  />
+  <meta name=”viewport” content =” width = device-width, initial-scale = 0”  />
+
+5. How do you tell Google you don’t want to provide an automatic translation for your page if the user uses a different language?   
+  <meta name=”googlebot” content=”english”  />
+  <meta name=”language” content=”english”  /> 
+* <meta name=”googlebot” content=”notranslate”  />
+
+6. Which of the following statements are true about HTTP-equiv tags? Select all that apply.   
+* They are useful if you don’t have access to the server configuration 
+* They can simulate HTTP response headers
+  They are the recommended way to set HTTP response headers   

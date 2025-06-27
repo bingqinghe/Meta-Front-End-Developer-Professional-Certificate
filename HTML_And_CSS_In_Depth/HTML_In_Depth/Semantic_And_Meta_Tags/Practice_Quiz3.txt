@@ -1,0 +1,36 @@
+Knowledge check: Open Graph Protocol
+
+1. How does the Open Graph Protocol (OGP) name the meta tags?
+* using property attribute
+  using name attribute
+  using id attribute
+
+2. Each property in the Open Graph Protocol starts with 'ogp:' 
+  True
+* False
+
+3. Which property should be used to define a URL of an image that must display when the website is shared on social media?
+* og:image
+  href
+  src
+  og:url
+
+4. Which property is used to define the language of the content being shared?
+  og:lang
+  og:description
+  og:type
+* og:locale
+
+5. The type property defines the type of the content. For example:
+    <meta property="og:type" content="website" />
+   Which property would mention the name of the website?
+
+* og:site_name
+  og:description
+  og:title
+  og:name
+
+6. When sharing your blog post, which property would you use to provide the link to the actual post?
+* og:url
+  og:description
+  og: image 

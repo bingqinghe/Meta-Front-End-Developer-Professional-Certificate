@@ -1,0 +1,45 @@
+Knowledge check: Semantic and meta tags
+
+1. When setting up viewport metadata for mobile experiences, the ideal suggested value for 'initial-scale' is: 
+  100
+  -1
+  0.1
+* 1
+
+2. True or false. The viewport metadata can impact Search Engines rankings.
+* True
+  False
+
+3. Which of the following meta tags are used for Search Engine Optimization?Select all that apply. 
+* Description 
+* Viewport
+* Author 
+  Keywords
+
+4. Which of the following are the required properties while making social media cards using OGP? Select all that apply.
+* type 
+* image
+* title 
+  description
+
+5. Which of the elements below semantically divides your article content into parts that cover a specific topic?
+  <header> 
+  <nav> 
+  <footer>
+* <section>
+
+6. When defining a social media card, how would you define the title?
+  <meta name="media:title" content=”my title” />
+  <meta property=”title” content=”my title” />
+* <meta property=”og:title” content=”my title” />
+  <meta name=”title for facebook” content=”my title” />
+
+7. True or false. More than one header element can exist in an HTML document?
+* True
+  False
+
+8. When required to define a page refresh, which attribute value in <meta> must be set? Select all that apply.
+* http-equiv
+  charset
+* content
+  name
