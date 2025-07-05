@@ -1,0 +1,33 @@
+Knowledge check: Media elements
+
+1. Each square block in a table is called a:
+* cell
+  index
+  unit
+  box
+
+2. What attribute can you add inside an audio tag to enable player controls such as the pause and volume buttons? 
+  src
+  audio
+* controls
+  source
+
+3. While using the canvas element from the HTML file inside your JavaScript file, you pass the value of the id attribute of the canvas to the document.getDocumentById() function in your JavaScript code.    
+  True
+* False
+
+4. Which of the following attributes can you add to an iFrame to improve the security of the web page where the iFrame is added? Choose all that apply.
+* allow="camera 'none';"
+* sandbox=""
+  style="border:none;"
+* allow="microphone 'none';"
+
+5. GIF, 2D Canvas and WebGL are types of authoring tools. 
+  True
+* False
+
+6. .mp4 is a type of
+  File template
+  File limiter
+  File name
+* File extension
