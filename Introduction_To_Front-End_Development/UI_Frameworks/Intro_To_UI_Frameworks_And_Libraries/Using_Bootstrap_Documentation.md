@@ -42,8 +42,8 @@ For example:
 
 This table outlines the different HTML form elements and which Bootstrap CSS class should be used for them.
 
-| **Form Element**    | **CSS Class**  |
-|:------------------- |:-------------- |
+| **Form Element**  | **CSS Class**  |
+|:----------------- |:-----------------|
 |input                |form-control    |
 |input type="checkbox"|form-check-input|
 |input type="radio"   |form-check-input|
