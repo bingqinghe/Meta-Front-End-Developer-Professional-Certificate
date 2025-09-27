@@ -1,0 +1,42 @@
+Knowledge check: CSS effects
+
+1. Which of the following properties is used to set the length of time in seconds for one iteration of animation in CSS?
+  animation-timeline
+  animation-timing-function
+  animation-delay
+* animation-duration
+
+2. What are the benefits of using preprocessors such as SASS and SCSS? Select all that apply.
+* They allow for re-use of values across CSS rules
+* They reduce the amount of CSS to maintain
+* They provide audit functionality
+
+3. The ______ suffix is used to define variables inside SCSS files used for CSS.
+  #
+  @
+* $
+  No special characters are needed
+
+4. What styling property will you apply if you want to rotate an object 60 degrees in counter clockwise direction?
+  rotate: -60deg
+* transform: rotate(-60deg)
+  rotate: 60deg
+  transform: rotate(60deg)
+
+5. You cannot apply more than one property inside a single ‘transform’ declaration rule in CSS.
+  True
+* False
+
+6. Is this valid code for an animation-name ‘animate’?
+    @keyframes animate {
+        0% {
+            transform: rotate(60deg) scale(0.8);
+        }
+        25% {
+            transform: rotate(90deg) scale(1.2);
+        }
+    }
+
+* Yes, this should work fine
+  No, you cannot use the transform inside @keyframes
+  No, the animation transition is not fully defined
