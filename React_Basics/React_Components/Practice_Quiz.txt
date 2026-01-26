@@ -1,0 +1,29 @@
+Knowledge check: React components and where they live
+
+1. What type of casing should be used when adding a component name after a function keyword?
+  kebab-cased
+* PascalCase (UpperCamelCase)
+  lowerCamelCase
+
+2. There are two components at the root of the src folder: Example and App. What syntax should you use to import the Example component into the App component?
+* import Example from "./Example"
+  import Example;
+  import “Example”;
+
+3. True or False: You can omit the ./ from the import statement when both the exported and the imported components are in the same folder.
+  True
+* False
+
+4. Pick the correct syntax needed to export a component so that it can be imported.
+* export default Example;
+  export example;
+  export standard Example;
+  export default;
+
+5. You've imported the Example component into the App component. What will the following syntax do: return ( <Example /> )?
+* It will render the Example component on the screen.
+  It will render the App component on the screen.
+  It will throw an error.
+  It will show a warning.
+
+
