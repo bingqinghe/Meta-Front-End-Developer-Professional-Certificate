@@ -1,0 +1,24 @@
+Knowledge check: Passing state
+
+1. What is the Context API?
+  A way to change the execution context of a function in JavaScript.
+* An alternative way to working with state in React.
+
+2. When working with useState to keep state in a variable, you should not use array destructuring.
+  True
+* False
+
+3. If a state variable is destructured from useState, and set to variable name of user, the name of the function to update the user state variable should be...
+  useUser
+* setUser
+  userSetter
+  useState
+
+4. What does the concept of “lifting up state” entail?
+  It involves moving the state from the parent component to the child component.
+* It involves moving the state from the child component to the parent component.
+
+5. What is a negative result of lifting up state in a React app?
+  It can significantly increase the number of components that you need to create.
+* Prop drilling.
+  There are no negatives from lifting up state in React.

@@ -1,0 +1,41 @@
+Knowledge check: Data flow
+
+1. Usually, a React app consists of many components, organized as a component tree.
+* True
+  False
+
+2. Uni-directional data flow is...
+  The term that describes the one-way flow of DOM updates in a React app
+  The term that describes the one-way flow of components in a React app
+* The term that describes the one-way flow of data in a React app.
+
+3. A component can, at any given time_______. Select all that apply.
+* Pass data as props and receive data as props at the same time
+* Receive data as props
+* Pass data as props
+
+4. You can only pass a single prop to a component.
+  True 
+* False 
+
+5. The props parameter is:
+  An array 
+  A boolean 
+  A string 
+* An object 
+
+6. Consider the following piece of code:
+    function MyMenu() {  
+        return (  
+            <div>  
+            <Appetizers />  
+            </div>  
+        )  
+    } 
+
+    Which element of this code represents a child component?
+  
+  <div>
+* <Appetizers />
+  MyMenu()
+  return

@@ -1,0 +1,56 @@
+Knowledge check: Dynamic events and how to handle them
+
+1. What code should be added to the element button to make this code snippet valid?
+    function App() {
+
+        function handleClick() {
+            console.log("clicked")
+        }
+
+        return (
+            <div className="App">
+            <button >Click me</button>
+            </div>
+        );
+    }
+
+* onClick={handleClick}
+  onClick={handleClick()}
+  click=handleClick
+
+2. Imagine that you have a variable named userLoggedIn and it’s set to the boolean of true. How would you complete the below clickHandler function declaration to toggle the value of the userLoggedIn boolean?
+    function clickHandler() {
+    }
+
+* userLoggedIn = !userLoggedIn
+  userLoggedIn = false
+  userLoggedIn = true
+
+3. Is a click handler on its own enough to change the values of variables in your React apps and render the new value?
+* No
+  Yes
+
+4. What are the ways to write an event-handling function in React. Select all that apply.
+* Using a separate function declaration
+* With an inline, anonymous ES6 function (an arrow function)
+* Using a separate function expression
+* With an inline anonymous ES5 function
+
+5. Choose the appropriate code on line 3 of the following component – to handle a click event.
+    function App() {
+
+        function () {
+            console.log("clicked")
+        }
+
+        return (
+            <div className="App">
+            <button onClick={handleClick}>Click me</button>
+            </div>
+        );
+    }
+
+
+* function handleClick() {
+  function HandleClick() {
+  function handleClick {
