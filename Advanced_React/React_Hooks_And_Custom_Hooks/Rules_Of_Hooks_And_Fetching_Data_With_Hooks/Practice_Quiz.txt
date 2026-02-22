@@ -1,0 +1,22 @@
+Knowledge check: Rules of Hooks and Fetching Data with Hooks
+
+1. True or false: You should not call hooks inside loops.
+* True
+  false
+
+2. True or false: You should call hooks inside if statements.
+  True
+* False
+
+3. True or false: You should call hooks inside nested functions.
+  True
+* False
+
+4. You are allowed to:
+  only call a single state hook inside a component 
+  only call a single effect hook inside a component. 
+* call multiple state hooks and effect hooks inside a component 
+
+5. True or false: You don't have to always make multiple hook calls in the same sequence.
+  True
+* False
