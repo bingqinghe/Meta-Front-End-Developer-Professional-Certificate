@@ -1,0 +1,34 @@
+Knowledge check: Automated testing
+
+1. Why is automated testing important? Select all that apply.
+* It offers a faster feedback cycle, bringing faster validation and helping the development team to detect problems or bugs early.
+* It reduces human error.
+* It saves time to development teams.
+
+2. What are some of the best practices when writing your automated tests? Select all that apply.
+* Your tests should resemble the way your software is used.
+  Your tests need to be focused on the implementation details of your components.
+* Your tests should be maintainable in the long run.
+
+3. Imagine you have a component that renders both an input tag and a label tag with the exact text Comments:. Inside your test, you have the piece of code below:
+    const element = screen.getByLabelText(/Comments:/);
+
+   What would be the type of element returned by getByLabelText?
+
+  The label element
+* The input element
+  The document object
+
+4. In a particular test that’s been written for a form component, you encounter the two lines of code below . What kind of data would the handleSubmit variable represent?
+    const handleSubmit = jest.fn();
+    render(<FeedbackForm onSubmit={handleSubmit} />);
+
+  A specific function jest provides to handle form submissions 
+  A copy of the real function that’s used in the parent component that renders the FeedbackForm.
+* A mock function to track how it's called by external code and thus explore the arguments passed in.
+
+5. What are some of the benefits of Continuous Integration (CI)? Select all that apply.
+  Faster manual integrations.
+* Find bugs earlier and fix them faster.
+* Deliver working software more often.
+* Improved developer productivity.
