@@ -1,0 +1,170 @@
+Final graded quiz: Advanced React
+
+1. You are building a form using both Formik and Yup libraries, where one of the inputs is an email. Before the form gets submitted to the server, you would like to set up some client validation with Yup to make sure the field has an email that is valid, otherwise a message “Invalid email address” would be shown on the screen. This field is also required. Choose the correct validation code from the three code snippets.
+  Yup.email().string("Invalid email address").required("Required")
+* Yup.string().email("Invalid email address").required("Required")
+  Yup.email("Invalid email address").required("Required")
+
+2. You have the following React application where you have a ToDo component that has two text labels and an uncontrolled text input and the entry point App component that renders a list of two ToDos and a button to reverse the order of the ToDos. To avoid a React keys warning, a key is provided to each ToDo component, with the index as its value. Suppose that the next sequence of events happen in the application:
+    1. You write “Wash the car” in the first ToDo  input
+    2. You write “Buy bumper stickers” in the second ToDo  input
+    3. You click the button to reverse the order
+   What would happen on the screen after that?
+
+    const ToDo = props => (
+        <tr>
+            <td>
+                <label>{props.id}</label>
+            </td>
+            <td>
+                <input />
+            </td>
+            <td>
+                <label>{props.createdAt}</label>
+            </td>
+        </tr>
+    );
+
+
+    function App() {
+        const [todos, setTodos] = useState([
+            {
+                id: 'todo1',
+                createdAt: '18:00',
+            }, 
+            {
+                id: 'todo2',
+                createdAt: '20:30',
+            }
+        ]);
+
+        const reverseOrder = () => {
+            // Reverse is a mutative operation, so we need to create a new array first.
+            setTodos([...todos].reverse());
+        };
+
+        return (
+            <div>
+                <button onClick={reverseOrder}>Reverse</button>
+                {todos.map((todo, index) => (
+                    <ToDo key={index} id={todo.id} createdAt={todo.createdAt} />
+                ))}
+            </div>
+        );
+    }
+
+
+  todo1 Buy bumper stickers 18:00
+  todo2 Wash the car 20:30
+
+* todo2 Wash the car 20:30
+  todo1 Buy bumper stickers 18:00
+
+  todo2 Buy bumper stickers 20:30
+  todo1 Wash the car 18:00
+
+3. True or false: There are at least two errors in the code below.
+    import{ createContext, useContext, useState} from"react";
+
+    const ThemeContext = createContext(undefined);
+
+    export const ThemeProvider= () => {
+        const[theme, setTheme] = useState("light");
+
+        return(
+            <ThemeContext.Provider
+                value={{
+                    theme,
+                    toggleTheme: () => setTheme(!theme),
+                }}
+            >
+            </ThemeContext.Provider>
+        );
+    };
+
+* True
+  False
+
+4.  Select all the statements that are true for React elements:
+  Each element object should have at least two properties: type and children
+* The type of an element can be a DOM node, like a HTML button.
+* The type of an element can be a function corresponding to a React component, like a SubmitButton.
+* A tree of elements can mix and match both components and DOM elements as the type property.
+
+5. True or false: When the Submit button is clicked, the code below will output the words “WithClick” to the console.
+    const Button = ({ children, ...rest }) => (
+        <button onClick={() => console.log("ButtonClick")} {...rest}>
+            {children}
+        </button>
+    );
+
+    const withClick = (Component) => {
+        const handleClick = () => {
+            console.log("WithClick");
+        };
+
+        return(props) => {
+            return<Component {...props} onClick={handleClick} />;
+        };
+    };
+
+    const MyButton = withClick(Button);
+
+    export default function App() {
+        return <MyButton onClick={() => console.log("AppClick")}>Submit</MyButton>;
+    }
+
+* True
+  False
+
+6. True or False: Using jest and react-testing-library, to assert that a function has been called with some specific arguments, you would need to use the toHaveAttribute matcher.
+  True
+* False
+
+7. Among the following code examples, what are valid implementations of the render props pattern?
+* <MealProvider render={data => (  <p>Ingredients: {data.ingredients}</p>)} />
+* <Row renderIcon={() => <Icon name=”add” />} />
+  <LoginUser renderUser={<p>Mark</p>} />
+
+8. Inspect the given code snippet.
+    React.useEffect(()=> {
+        console.log('The initial value of the price variable is', price)
+    })
+   Where should you add an empty array to have the effect ran only on initial render?
+
+* As a second argument after the arrow function passed to the useEffect() call. 
+  You need to add an empty array in a separate arrow function. 
+  You can't add an empty array in this code snippet. 
+
+9. True or false? In the following component, the setRestaurantName variable’s value will not be reset between re-renders of the App component.
+    import {useState} from "react";
+
+    export default function App() {
+        const [restaurantName, setRestaurantName] = useState("Lemon");
+
+        function updateRestaurantName() {
+            setRestaurantName("Little Lemon");
+        };
+
+        return (
+            <div>
+            <h1>{restaurantName}</h1>
+            <button onClick={updateRestaurantName}>
+                Update restaurant name
+            </button>
+            </div>
+        );
+    };
+
+* True
+  False
+
+10. Is this valid code?
+    if (data !== '') {
+        useEffect(() => {
+            setData('test data');
+        });
+    }
+
+* No
+  Yes
