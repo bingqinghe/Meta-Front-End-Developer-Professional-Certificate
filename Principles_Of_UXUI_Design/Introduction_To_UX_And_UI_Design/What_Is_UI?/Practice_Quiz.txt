@@ -1,0 +1,24 @@
+Knowledge check: What is UI?
+
+1. UI presents interactive, visual elements users can interact with on-screen to communicate with technology.
+* True
+  False
+
+2. The importance of a well-designed user interface cannot be overestimated. 
+* True
+  False
+
+3. What functionality does Figma have? Select all the apply.
+* Collaborative
+* Prototype
+* Web-based
+* Comments
+  Designs and develops a website
+
+4. Is the Canvas the background for all your designs?
+* Yes
+  No
+
+5. The Figma menu can be accessed in the top-center bar of the Figma screen. 
+  Yes
+* No

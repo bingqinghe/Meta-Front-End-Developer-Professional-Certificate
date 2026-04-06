@@ -1,0 +1,29 @@
+Knowledge check: What is UX?
+
+1. UX is an iterative process that solves usability problems. For example, increasing sales and keeping customers coming back for more by examining a website or app from the user’s perspective
+* True
+  False
+
+2. What are the five stages of the UX process? Select all that apply.
+* Empathize
+* Define
+* Ideate
+* Prototype
+* Test
+  Persona
+  Storyboarding
+
+3. Usability in UX design determines how intuitive a product is to use.
+* Yes
+  No
+
+4. Jakob Nielsen proposes usability components. What are these usability components? Select all that apply.
+* Learnability
+* Efficiency
+* Memorability
+* Errors
+* Satisfaction
+
+5. What is a wireframe in UX design? 
+* A representation of the interface concerned with placement and hierarchy of content and functionalities.
+  A simulation of the final product
